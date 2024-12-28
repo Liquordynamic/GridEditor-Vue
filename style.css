@@ -1,0 +1,58 @@
+body, html, div#app {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* overflow: hidden; */
+}
+#map{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* background-color: red; */
+}
+#GPUFrame {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 10 !important;
+}
+
+/* 
+.dg.main.a {
+    position: relative;
+    margin: 0px;
+    z-index: 10000;
+} */
+
+button {
+    z-index: 1000;
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    cursor: pointer;
+    position: fixed;
+    border: none;
+    padding: 0px 0px;
+    right: 10px;
+    translate: translateY(-50%);
+}
+
+button.active {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease;
+}
+
+button:active {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+button:focus {
+    outline: none;
+}
