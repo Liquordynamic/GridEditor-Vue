@@ -1,4 +1,4 @@
-# NHGrid
+# NHGrid Vue demo
 NHGrid is a generator used to build grid topology for hydrological modeling on Web platforms.
 
 ![Image text](https://github.com/Liquordynamic/NHGrid/blob/main/HAHA.png)
